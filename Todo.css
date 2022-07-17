@@ -1,0 +1,57 @@
+.listcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box{
+    width: 400px;
+    box-shadow: 2px 2px 2px grey;
+    text-align: center;
+}
+form input{
+    border: 0;
+    outline: 0;
+    padding: 3px 0;
+    background-color: rgb(222, 231, 228);
+    width: 70%;
+    margin-bottom: 30px;
+}
+form button{
+    padding: 3px 10px;
+    border: 1px solid orange;
+}
+.clearItem{
+    background: none;
+    color: orange;
+}
+ul{
+   text-align: left;
+}
+ul li{
+    list-style-type: none;
+    color: black;
+    font-weight: 100;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+  
+}
+ul li span{
+    margin-right: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.alert{
+    position: absolute;
+    top: 0;
+    padding: 0 30px;
+    text-transform: capitalize;
+}
+.success{
+    background-color: rgb(146, 243, 146);
+}
+.danger{
+    background-color: rgb(255, 112, 112);
+}
